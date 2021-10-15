@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<Collider2D>();
+        transform.position = GameManager.Instance.lastPosition;
     }
 
 
