@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2861030650402923557}
-  - component: {fileID: 2861030650402923556}
   - component: {fileID: 2861030650402923559}
   - component: {fileID: 2861030650402923558}
   - component: {fileID: 2861030650402923553}
+  - component: {fileID: 4631352331078558265}
   m_Layer: 3
   m_Name: Ground (5)
   m_TagString: Block
@@ -34,19 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2861030650402923556
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2861030650402923552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60d305da90d011a4aaa8de2ef2cc6134, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AS: {fileID: 2861030650402923553}
 --- !u!212 &2861030650402923559
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -220,3 +207,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4631352331078558265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2861030650402923552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d305da90d011a4aaa8de2ef2cc6134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AS: {fileID: 2861030650402923553}
