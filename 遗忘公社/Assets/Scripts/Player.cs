@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+
         isOnGroundCheck();
         Move();
         Jump();
