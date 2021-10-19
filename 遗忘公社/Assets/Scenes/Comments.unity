@@ -227,6 +227,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b242dee5dddca8469cf29f13f067dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  answerMelodyList: 
+  currentMelodyList: 
+  player: {fileID: 0}
 --- !u!1 &425447528
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +667,7 @@ GameObject:
   - component: {fileID: 875526060}
   - component: {fileID: 875526062}
   - component: {fileID: 875526061}
+  - component: {fileID: 875526063}
   m_Layer: 0
   m_Name: Checkbox
   m_TagString: Untagged
@@ -679,7 +683,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875526059}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.95, z: -0.29519472}
+  m_LocalPosition: {x: -0.026, y: 0.95, z: -0.29519472}
   m_LocalScale: {x: 0.6233733, y: 0.43477637, z: 1}
   m_Children: []
   m_Father: {fileID: 1538681757}
@@ -762,6 +766,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &875526063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875526059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83a5251ca1a76154892f0b4a72292dc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteIndex: 0
 --- !u!1 &1144388389
 GameObject:
   m_ObjectHideFlags: 0
