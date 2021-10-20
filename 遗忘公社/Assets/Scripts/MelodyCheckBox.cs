@@ -7,7 +7,7 @@ public class MelodyCheckBox : MonoBehaviour
     
     public int noteIndex = 0; // Set this in inspector
 
-    void OnTriggerEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         if(coll.gameObject.name == "Player") // Use tag here rather than name
         {
@@ -15,6 +15,9 @@ public class MelodyCheckBox : MonoBehaviour
             var melodyCheck = player.GetComponent<MelodyCheck>();
             melodyCheck.currentMelodyList.Add(noteIndex);
             melodyCheck.CheckCurrentMelodyList();
+            Debug.Log("Check Player");
         }
     }
+
+    
 }
