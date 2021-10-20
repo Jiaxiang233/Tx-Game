@@ -5,24 +5,39 @@ using UnityEngine;
 public class MelodyCheck : MonoBehaviour
 {
     [Header("Melody List")]
-    public List<int> answerMelodyList;
+    public int answerLength;
+    public List<int> answerMelodyList;  // Fixed Length
     public List<int> currentMelodyList;
-
-    [Header("References")]
-    public Player player;
-
 
     public void CheckCurrentMelodyList()
     {
-        bool result = false;
 
-        for(int i = 0; i < answerMelodyList.Count; ++i)
+        // Should Not Happen
+        if (currentMelodyList.Count == 0) return;
+
+        for(int i = 0; i < currentMelodyList.Count; ++i)
         {
-            if (answerMelodyList[i] != currentMelodyList[i]); return;
+            if (answerMelodyList[i] != currentMelodyList[i])
+            {
+                // Check Failed
+                Debug.Log("Check Fail, Clear the currentMelodyList");
+                currentMelodyList.Clear();
+                return;
+            }
         }
 
-        // Made it here, melody checked.
-        Debug.Log("Corrent Melody");
+        // Check Success
+        Debug.Log("Corrent Melody is Same");
+        // Check If Complete
+        if(currentMelodyList.Count == answerMelodyList.Count)
+        {
+            // Reach The End
+            Debug.Log("-- Melody Complete");
+            currentMelodyList.Clear();
+
+            // Some Other Logic
+        }
+
     }
 
 }
