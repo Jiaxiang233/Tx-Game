@@ -603,6 +603,7 @@ GameObject:
   - component: {fileID: 558203417}
   - component: {fileID: 558203418}
   - component: {fileID: 558203399}
+  - component: {fileID: 558203419}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -641,7 +642,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 92.449005
     y: 138.21951
-    width: 77
+    width: 75.88235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -671,11 +672,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 182.58444, y: 57.16382}
+  scrollPos: {x: 238.51762, y: 74.9365}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -683,8 +684,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 558203390}
-  selectedCommands: []
+  - {fileID: 558203396}
+  selectedCommands:
+  - {fileID: 558203419}
   variables: []
   description: 
   stepPause: 0
@@ -801,7 +803,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 252.80466
     y: 136.22804
-    width: 80
+    width: 79.41176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -828,6 +830,7 @@ MonoBehaviour:
   - {fileID: 558203404}
   - {fileID: 558203415}
   - {fileID: 558203400}
+  - {fileID: 558203419}
   suppressAllAutoSelections: 0
 --- !u!114 &558203397
 MonoBehaviour:
@@ -1411,6 +1414,25 @@ MonoBehaviour:
   duration: 1
   amount: {x: 1, y: 1}
   waitUntilFinished: 0
+--- !u!114 &558203419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558203388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 53
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: 
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &596572037
 GameObject:
   m_ObjectHideFlags: 0
