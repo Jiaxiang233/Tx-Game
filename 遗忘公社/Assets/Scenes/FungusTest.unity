@@ -683,10 +683,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 558203396}
-  selectedCommands:
-  - {fileID: 558203419}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1416,7 +1414,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &558203419
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1430,7 +1428,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: 
+    stringVal: "\u5173\u53611\u4E3B"
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!1 &596572037
