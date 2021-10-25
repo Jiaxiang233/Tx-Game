@@ -8,8 +8,6 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D coll;
     public int index;
-    public int[] melodyArray = { 1, 2, 3 };
-    public int[] currentArray = new int[3];
 
     [Header("ÒÆ¶¯²ÎÊý")]
     public float speed = 8f;
@@ -97,28 +95,5 @@ public class Player : MonoBehaviour
             jumpPress = false;
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        var block = collision.gameObject.GetComponent<Player>();
-        if(block.index == 1)
-        {
-            int i=1;
-            for (int j = 0; j < melodyArray.Length; j++)
-            {
-                if (currentArray[j] != melodyArray[j])
-                {
-                    i = 0;
-                    Array.Clear(currentArray, 0, currentArray.Length);
-                    break;
-                }
-            }
-            if (i == 1)
-            {
-                Debug.Log("Well Done.");
-            }
-                
-        }
-     
-        
-    }
+    
 }

@@ -20,7 +20,7 @@ public class Death12 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             DestroyImmediate(other.gameObject);
-            other.gameObject.transform.position = new Vector3(27, -2, 0);
+            other.gameObject.transform.position = new Vector3(80, 7, 0);
 
         }
     }

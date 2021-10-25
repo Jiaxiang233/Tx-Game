@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MelodyCheck : MonoBehaviour
 {
     [Header("Melody List")]
-    public int answerLength;
     public List<int> answerMelodyList;  // Fixed Length
     public List<int> currentMelodyList;
+    public Vector3 position;
 
     public void CheckCurrentMelodyList()
     {
@@ -22,18 +23,22 @@ public class MelodyCheck : MonoBehaviour
                 // Check Failed
                 Debug.Log("Check Fail, Clear the currentMelodyList");
                 currentMelodyList.Clear();
+                MusicScore.Instance.ScoreRes();
+                DestroyImmediate(gameObject);
+                gameObject.transform.position = position;
                 return;
             }
         }
 
         // Check Success
         Debug.Log("Corrent Melody is Same");
+        MusicScore.Instance.ScoreMove(1);
         // Check If Complete
-        if(currentMelodyList.Count == answerMelodyList.Count)
+        if (currentMelodyList.Count == answerMelodyList.Count)
         {
             // Reach The End
             Debug.Log("-- Melody Complete");
-            currentMelodyList.Clear();
+    
 
             // Some Other Logic
         }
