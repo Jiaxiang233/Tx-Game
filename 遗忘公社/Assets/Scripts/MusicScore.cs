@@ -7,6 +7,7 @@ public class MusicScore : MonoBehaviour
     public static MusicScore Instance;
     public RectTransform tf;
     public int shift=0;
+    public int moveDistance = 20;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +28,8 @@ public class MusicScore : MonoBehaviour
     {
         if (code == 1)
         {
-            transform.Translate(-10, 0, 0);
-            shift += 10;
+            transform.Translate(-moveDistance, 0, 0);
+            shift += moveDistance;
         }
     }
     public void ScoreRes()//÷ÿ÷√Œª÷√
