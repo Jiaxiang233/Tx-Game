@@ -146,10 +146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   index: 0
-  melodyArray: 010000000200000003000000
-  currentArray: 000000000000000000000000
   speed: 6
-  jumpForce: 10
+  jumpForce: 12
   isOnGround: 0
   groundLayer:
     serializedVersion: 2
@@ -168,3 +166,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerMelodyList: 
   currentMelodyList: 
+  position: {x: 0, y: 0, z: 0}
