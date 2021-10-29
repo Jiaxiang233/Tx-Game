@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Death12 : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public Vector3 i;
     void Start()
     {
         
@@ -20,7 +21,7 @@ public class Death12 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             DestroyImmediate(other.gameObject);
-            other.gameObject.transform.position = new Vector3(80, 7, 0);
+            other.gameObject.transform.position = i;//new Vector3(80, 7, 0);
 
         }
     }
