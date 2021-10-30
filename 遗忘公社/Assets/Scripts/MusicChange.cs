@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class MusicChange : MonoBehaviour
 {
+    float sec = 0f;
+    int i = 1;
     public AudioClip audio1;
     public AudioClip audio2;
-    float i = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,23 +17,24 @@ public class MusicChange : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(TwoSeconds());
-    }
-    IEnumerator TwoSeconds()
-    {
-        while(true)
+        sec += Time.deltaTime;
+        if (sec / 3 - i < 0.01 && sec / 3 - i > 0)
         {
-            yield return new WaitForSeconds(4f);
-            i = i + 1;
-        
+            i += 1;
+
             if (i % 2 == 0)
             {
                 gameObject.GetComponent<AudioSource>().clip = audio1;
+                GameObject.Find("lmao").GetComponent<MelodyCheckBox>().noteIndex = 2;
             }
             else
+            {
                 gameObject.GetComponent<AudioSource>().clip = audio2;
-
+                GameObject.Find("lmao").GetComponent<MelodyCheckBox>().noteIndex = 20;
+            }
         }
     }
-
 }
+  
+
+
