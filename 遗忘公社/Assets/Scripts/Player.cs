@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D coll;
     public int index;
+    public float playerScale = 0.4f;
 
     [Header("移动参数")]
     public float speed = 8f;
@@ -72,7 +73,7 @@ public class Player : MonoBehaviour
         //镜面翻转
         if (xVelocity != 0)
         {
-            transform.localScale = new Vector3(xVelocity, 1, 1);
+            transform.localScale = new Vector3(playerScale*xVelocity, playerScale, playerScale);
         }
     }
 
