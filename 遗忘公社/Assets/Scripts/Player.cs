@@ -52,6 +52,7 @@ public class Player : MonoBehaviour
         isOnGroundCheck();
         Move();
         Jump();
+        SwitchAnim();
     }
 
     void isOnGroundCheck()
@@ -105,5 +106,13 @@ public class Player : MonoBehaviour
             jumpPress = false;
         }
     }
+    void SwitchAnim()
+    {
+        if (isOnGround)
+            myAnimator.SetBool("isJumping", false);
+        else
+            myAnimator.SetBool("isJumping", true);
+    }
+    
     
 }
