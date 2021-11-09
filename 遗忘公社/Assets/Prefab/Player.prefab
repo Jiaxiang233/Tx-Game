@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6224979190535567501}
   - component: {fileID: 6224979190535567500}
   - component: {fileID: 2306597918236289872}
-  - component: {fileID: 8465721955227631505}
+  - component: {fileID: 971484067}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -149,7 +149,7 @@ MonoBehaviour:
   index: 0
   playerScale: 0.4
   speed: 6
-  jumpForce: 12
+  jumpForce: 13.5
   isOnGround: 0
   groundLayer:
     serializedVersion: 2
@@ -166,10 +166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b242dee5dddca8469cf29f13f067dae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerMelodyList: 0000000003000000020000000300000004000000030000000200000004000000030000000200000001000000
+  answerMelodyList: 00000000050000000500000001000000010000000200000003000000
   currentMelodyList: 
-  position: {x: 55, y: 7, z: 0}
---- !u!95 &8465721955227631505
+  position: {x: 111, y: 10, z: 0}
+--- !u!95 &971484067
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
