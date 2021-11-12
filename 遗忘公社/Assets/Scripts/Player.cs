@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     public int index;
     public float playerScale = 0.4f;
     Animator myAnimator;
-
+    public Joystick joystick;
     [Header("移动参数")]
     public float speed = 8f;
 
@@ -35,24 +35,28 @@ public class Player : MonoBehaviour
         coll = GetComponent<Collider2D>();
        // transform.position = GameManager.Instance.lastPosition;
         myAnimator = GetComponent<Animator>();
+
     }
 
 
-    void Update()
+    public void Update()
     {
-        if (Input.GetButtonDown("Jump") && jumpCount > 0)
+        //  if (Input.GetButtonDown("Jump") && jumpCount > 0)
+        if (joystick.Vertical>0.5f && jumpCount > 0)
         {
             jumpPress = true;
         }
     }
+   
 
-    void FixedUpdate()
+    public void FixedUpdate()
     {
 
         isOnGroundCheck();
         Move();
         Jump();
         SwitchAnim();
+     
     }
 
     void isOnGroundCheck()
@@ -69,8 +73,8 @@ public class Player : MonoBehaviour
 
     void Move()
     {
-        xVelocity = Input.GetAxisRaw("Horizontal");
-
+         //xVelocity = Input.GetAxisRaw("Horizontal");
+        xVelocity = joystick.Horizontal;
         rb.velocity = new Vector2(xVelocity * speed, rb.velocity.y);
 
         //镜面翻转
@@ -87,7 +91,7 @@ public class Player : MonoBehaviour
 
     }
 
-    void Jump()
+    public void Jump()
     {
         if (isOnGround)
         {
@@ -113,6 +117,9 @@ public class Player : MonoBehaviour
         else
             myAnimator.SetBool("isJumping", true);
     }
-    
+
+
+     
+   
     
 }
