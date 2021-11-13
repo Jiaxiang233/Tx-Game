@@ -41,8 +41,9 @@ public class Player : MonoBehaviour
 
     public void Update()
     {
-        //  if (Input.GetButtonDown("Jump") && jumpCount > 0)
-        if (joystick.Vertical>0.5f && jumpCount > 0)
+         if (Input.GetButtonDown("Jump") && jumpCount > 0) //电脑端操作
+       // if (joystick.Vertical>0.5f && jumpCount > 0) //手机端操作
+       
         {
             jumpPress = true;
         }
@@ -73,8 +74,8 @@ public class Player : MonoBehaviour
 
     void Move()
     {
-         //xVelocity = Input.GetAxisRaw("Horizontal");
-        xVelocity = joystick.Horizontal;
+         xVelocity = Input.GetAxisRaw("Horizontal");//电脑端操作
+        //xVelocity = joystick.Horizontal;  //手机端操作
         rb.velocity = new Vector2(xVelocity * speed, rb.velocity.y);
 
         //镜面翻转
