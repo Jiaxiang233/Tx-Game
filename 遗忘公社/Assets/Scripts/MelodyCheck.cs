@@ -9,6 +9,8 @@ public class MelodyCheck : MonoBehaviour
     public List<int> answerMelodyList;  // Fixed Length
     public List<int> currentMelodyList;
     public Vector3 position;
+    public GameObject SceneChanger;
+    public AudioSource audioClip;
 
     public void CheckCurrentMelodyList()
     {
@@ -38,11 +40,15 @@ public class MelodyCheck : MonoBehaviour
         {
             // Reach The End
             Debug.Log("-- Melody Complete");
+            SceneChanger.SetActive(true);
+            audioClip.Play();
+               
     
 
             // Some Other Logic
         }
 
     }
+     
 
 }

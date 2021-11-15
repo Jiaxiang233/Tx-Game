@@ -148,6 +148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 0
   playerScale: 0.4
+  joystick: {fileID: 3881087803549984439, guid: ec536a7718376554185e4a856d5ae230, type: 3}
   speed: 6
   jumpForce: 13.5
   isOnGround: 0
@@ -169,6 +170,7 @@ MonoBehaviour:
   answerMelodyList: 00000000050000000500000001000000010000000200000003000000
   currentMelodyList: 
   position: {x: 111, y: 10, z: 0}
+  SceneChanger: {fileID: 4548148978221079766, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
 --- !u!95 &971484067
 Animator:
   serializedVersion: 3

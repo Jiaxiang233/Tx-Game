@@ -5,12 +5,16 @@ using System;
 
 public class Player : MonoBehaviour
 {
+    //如果要切换成手机端操作，请将45,46，87行注释掉，然后将47-58行，88行取消注释即可。
     private Rigidbody2D rb;
     private Collider2D coll;
     public int index;
     public float playerScale = 0.4f;
     Animator myAnimator;
     public Joystick joystick;
+    public bool isonpc ;
+
+
     [Header("移动参数")]
     public float speed = 8f;
 
@@ -41,14 +45,53 @@ public class Player : MonoBehaviour
 
     public void Update()
     {
-         if (Input.GetButtonDown("Jump") && jumpCount > 0) //电脑端操作
-       // if (joystick.Vertical>0.5f && jumpCount > 0) //手机端操作
-       
+        if(isonpc == true)
         {
-            jumpPress = true;
+            pcmovement();
         }
+        else
+        {
+            mobilemovement();
+        }
+        
+        
+        //  if (Input.GetButtonDown("Jump") && jumpCount > 0)
+       //             jumpPress = true;                                  //电脑端操作
+      //Touch touch = Input.GetTouch(1);                               //手机端操作
+      // for(int i = 0;i<Input.touchCount; i++)
+      // {
+      //      Vector3 pos = Input.GetTouch(i).position;
+      //      if (pos.x > Screen.width / 2)
+      //      {
+      //          if (touch.phase == TouchPhase.Began && jumpCount > 0)
+      //          {
+      //              jumpPress = true;
+      //          }
+      //      }
+      //  }
+
     }
-   
+
+    void pcmovement()
+    {
+        if (Input.GetButtonDown("Jump") && jumpCount > 0 && isonpc)
+            jumpPress = true;
+    }
+    void mobilemovement()
+    {
+        Touch touch = Input.GetTouch(1);                               //手机端操作
+         for(int i = 0;i<Input.touchCount; i++)
+         {
+              Vector3 pos = Input.GetTouch(i).position;
+             if (pos.x > Screen.width / 2)
+              {
+                  if (touch.phase == TouchPhase.Began && jumpCount > 0)
+                {
+                     jumpPress = true;
+                 }
+              }
+          }
+    }
 
     public void FixedUpdate()
     {
@@ -74,8 +117,14 @@ public class Player : MonoBehaviour
 
     void Move()
     {
-         xVelocity = Input.GetAxisRaw("Horizontal");//电脑端操作
-        //xVelocity = joystick.Horizontal;  //手机端操作
+        if (isonpc == true)
+        {
+            xVelocity = Input.GetAxisRaw("Horizontal");
+        }                                                       //电脑端操作
+        else
+        {
+            xVelocity = joystick.Horizontal;
+        }                                                       //手机端操作
         rb.velocity = new Vector2(xVelocity * speed, rb.velocity.y);
 
         //镜面翻转
