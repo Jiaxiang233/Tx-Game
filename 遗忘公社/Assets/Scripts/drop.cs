@@ -5,6 +5,10 @@ using UnityEngine;
 public class drop : MonoBehaviour
 {
     bool triggered = false;
+    //public GameObject Player;
+    //加上player子物体时斜着跳或者水平移动会多次碰撞检测，不加平台下落速度与玩家不一致则脚会鬼畜
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +31,7 @@ public class drop : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             triggered = true;
+            //Player.transform.parent = transform;
         }
     }
 
@@ -37,6 +42,7 @@ public class drop : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             triggered = false;
+            //Player.transform.parent = null;
         }
     }
     }
