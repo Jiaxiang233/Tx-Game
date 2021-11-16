@@ -5,7 +5,6 @@ using System;
 
 public class Player : MonoBehaviour
 {
-    //如果要切换成手机端操作，请将45,46，87行注释掉，然后将47-58行，88行取消注释即可。
     private Rigidbody2D rb;
     private Collider2D coll;
     public int index;
@@ -53,22 +52,6 @@ public class Player : MonoBehaviour
         {
             mobilemovement();
         }
-        
-        
-        //  if (Input.GetButtonDown("Jump") && jumpCount > 0)
-       //             jumpPress = true;                                  //电脑端操作
-      //Touch touch = Input.GetTouch(1);                               //手机端操作
-      // for(int i = 0;i<Input.touchCount; i++)
-      // {
-      //      Vector3 pos = Input.GetTouch(i).position;
-      //      if (pos.x > Screen.width / 2)
-      //      {
-      //          if (touch.phase == TouchPhase.Began && jumpCount > 0)
-      //          {
-      //              jumpPress = true;
-      //          }
-      //      }
-      //  }
 
     }
 
@@ -77,19 +60,20 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && jumpCount > 0 && isonpc)
             jumpPress = true;
     }
-    void mobilemovement()
-    {
-        Touch touch = Input.GetTouch(1);                               //手机端操作
-         for(int i = 0;i<Input.touchCount; i++)
+    void mobilemovement()                       //手机端操作
+    {                               
+        for (int i = 0;i<Input.touchCount; i++)
          {
               Vector3 pos = Input.GetTouch(i).position;
-             if (pos.x > Screen.width / 2)
-              {
-                  if (touch.phase == TouchPhase.Began && jumpCount > 0)
-                {
-                     jumpPress = true;
-                 }
-              }
+              Touch touch = Input.GetTouch(i);
+            if (pos.x > Screen.width / 2)
+            {
+                  if (touch.phase == TouchPhase.Began && jumpCount > 0 )
+                  {
+                    jumpPress = true;
+                  }
+            }
+
           }
     }
 

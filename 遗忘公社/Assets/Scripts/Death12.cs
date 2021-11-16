@@ -6,6 +6,8 @@ public class Death12 : MonoBehaviour
 {
 
     public Vector3 i;
+    float lasttime;
+    public GameObject text;
     void Start()
     {
         
@@ -14,14 +16,19 @@ public class Death12 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Time.time - lasttime > 1.5f)
+        {
+            text.SetActive(false);
+        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Player")
         {
             DestroyImmediate(other.gameObject);
-            other.gameObject.transform.position = i;//new Vector3(80, 7, 0);
+            lasttime = Time.time;
+            text.SetActive(true);
+            other.gameObject.transform.position = i;
 
         }
     }
