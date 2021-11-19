@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Right Arrow
+    uniqueID: 2657068507
+    locked: 0
+  - name: Player
+    uniqueID: 1339375249
+    locked: 0
