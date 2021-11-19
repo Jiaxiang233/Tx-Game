@@ -389,8 +389,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audio1: {fileID: 8300000, guid: ea6b9ce37b450544aa496b55e62958e3, type: 3}
   audio2: {fileID: 8300000, guid: 5535bfce66f0429489fa8223847e967d, type: 3}
-  image1: {fileID: 21300000, guid: c6b92622daad6fb49a2cd58578f71e98, type: 3}
-  image2: {fileID: 21300000, guid: 45a869d88d23f3a40b02a0090c321c06, type: 3}
 --- !u!1001 &429926453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -700,7 +698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7494953777031641783, guid: 067337d0b3e4f2e47aded5e8565a5bb6, type: 3}
       propertyPath: m_Name
-      value: gg
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 067337d0b3e4f2e47aded5e8565a5bb6, type: 3}

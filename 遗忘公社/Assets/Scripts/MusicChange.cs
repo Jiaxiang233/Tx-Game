@@ -8,8 +8,6 @@ public class MusicChange : MonoBehaviour
     int i = 1;
     public AudioClip audio1;
     public AudioClip audio2;
-    public Sprite image1;
-    public Sprite image2;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,14 +26,11 @@ public class MusicChange : MonoBehaviour
             {
                 gameObject.GetComponent<AudioSource>().clip = audio1;
                 GameObject.Find("lmao").GetComponent<MelodyCheckBox>().noteIndex = 2;
-                GameObject.Find("gg").GetComponent<SpriteRenderer>().sprite = image1;
-            
             }
             else
             {
                 gameObject.GetComponent<AudioSource>().clip = audio2;
                 GameObject.Find("lmao").GetComponent<MelodyCheckBox>().noteIndex = 20;
-                GameObject.Find("gg").GetComponent<SpriteRenderer>().sprite = image2;
             }
         }
     }
