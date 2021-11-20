@@ -26,6 +26,7 @@ public class Death12 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             DestroyImmediate(other.gameObject);
+            GameObject.Find("Player").GetComponent<MelodyCheck>().currentMelodyList.Clear();
             lasttime = Time.time;
             text.SetActive(true);
             other.gameObject.transform.position = i;
