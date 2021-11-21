@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Death12 : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class Death12 : MonoBehaviour
     public Vector3 i;
     float lasttime;
     public GameObject text;
+    public int sceneindex;
     void Start()
     {
         
@@ -30,6 +32,7 @@ public class Death12 : MonoBehaviour
             lasttime = Time.time;
             text.SetActive(true);
             other.gameObject.transform.position = i;
+            SceneManager.LoadScene(sceneindex);
 
         }
     }

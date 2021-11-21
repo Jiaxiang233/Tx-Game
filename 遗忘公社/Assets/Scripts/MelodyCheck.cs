@@ -11,6 +11,7 @@ public class MelodyCheck : MonoBehaviour
     public Vector3 position;
     public GameObject SceneChanger;
     public AudioSource audioClip;
+    public int sceneindex;
 
     public void CheckCurrentMelodyList()
     {
@@ -28,6 +29,7 @@ public class MelodyCheck : MonoBehaviour
                 MusicScore.Instance.ScoreRes();
                 DestroyImmediate(gameObject);
                 gameObject.transform.position = position;
+                SceneManager.LoadScene(sceneindex);
                 return;
             }
         }
