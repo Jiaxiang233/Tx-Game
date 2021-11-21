@@ -2020,6 +2020,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3736890032148457464, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9952c1710a614c744bf9fe608edb7640, type: 3}
+    - target: {fileID: 3736890032148457471, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: moveDistance
+      value: 298
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
 --- !u!1001 &1633834546
@@ -2296,6 +2304,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+      propertyPath: SceneChanger
+      value: 
+      objectReference: {fileID: 1824188623}
+    - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: answerMelodyList.Array.size
       value: 11
       objectReference: {fileID: 0}
@@ -2397,6 +2409,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6224979190535567496, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
   m_PrefabInstance: {fileID: 1823866754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1824188623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4548148978221079766, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
+  m_PrefabInstance: {fileID: 967831602}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1854971533
 GameObject:

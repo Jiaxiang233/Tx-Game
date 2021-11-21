@@ -1079,6 +1079,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6224979190535567507, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
   m_PrefabInstance: {fileID: 1520752766}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &971484063 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 130418477946680450, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+  m_PrefabInstance: {fileID: 1520752766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &971484067
 Animator:
   serializedVersion: 3
@@ -1553,7 +1558,7 @@ PrefabInstance:
     - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: audioClip
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 971484063}
     - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: position.x
       value: 111
