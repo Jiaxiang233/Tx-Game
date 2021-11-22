@@ -42,10 +42,9 @@ public class MelodyCheck : MonoBehaviour
         {
             // Reach The End
             Debug.Log("-- Melody Complete");
-            SceneChanger.SetActive(true);
             audioClip.Play();
-               
-    
+            SceneChanger.SetActive(true);
+
 
             // Some Other Logic
         }
