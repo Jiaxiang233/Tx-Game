@@ -578,6 +578,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
+--- !u!1 &510408493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4548148978221079766, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
+  m_PrefabInstance: {fileID: 510408492}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &524218393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1420,6 +1425,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 130418477946680450, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a16164fd3ba6a8749933c0d78e4f6d23, type: 3}
+    - target: {fileID: 1984209020458033124, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 39b03ca2719f6604eb16707374f241ea, type: 3}
     - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: position.x
       value: 80
@@ -1432,6 +1445,10 @@ PrefabInstance:
       propertyPath: sceneindex
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+      propertyPath: SceneChanger
+      value: 
+      objectReference: {fileID: 510408493}
     - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: answerMelodyList.Array.size
       value: 16
