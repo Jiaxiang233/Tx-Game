@@ -389,8 +389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audio1: {fileID: 8300000, guid: ea6b9ce37b450544aa496b55e62958e3, type: 3}
   audio2: {fileID: 8300000, guid: 5535bfce66f0429489fa8223847e967d, type: 3}
-  image1: {fileID: 21300000, guid: c6b92622daad6fb49a2cd58578f71e98, type: 3}
-  image2: {fileID: 21300000, guid: 45a869d88d23f3a40b02a0090c321c06, type: 3}
+  image1: {fileID: 21300000, guid: 5e589808c48eb1546a75bcddbf694956, type: 3}
+  image2: {fileID: 21300000, guid: c6b92622daad6fb49a2cd58578f71e98, type: 3}
 --- !u!1001 &429926453
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -404,7 +404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3501288977936206064, guid: bb57b542dfb33954c8e2db75d14dbfb4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 97.578926
+      value: 97.25
       objectReference: {fileID: 0}
     - target: {fileID: 3501288977936206064, guid: bb57b542dfb33954c8e2db75d14dbfb4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -567,6 +567,10 @@ PrefabInstance:
     - target: {fileID: 4548148978221079764, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548148978221079765, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4548148978221079766, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: m_Name
@@ -900,6 +904,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+--- !u!114 &776772872 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 815869136909181161, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+  m_PrefabInstance: {fileID: 776772871}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42844a4fccbd54746b90cade4ff70f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &854570181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4289768873953443622, guid: 0d8dae55ccacb3446abbf795b14a2d11, type: 3}
@@ -1565,6 +1580,10 @@ PrefabInstance:
       propertyPath: isonpc
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+      propertyPath: joystick
+      value: 
+      objectReference: {fileID: 776772872}
     - target: {fileID: 6224979190535567507, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: m_Name
       value: Player
