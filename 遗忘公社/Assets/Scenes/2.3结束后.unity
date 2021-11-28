@@ -1254,7 +1254,11 @@ GameObject:
   - component: {fileID: 1042074032}
   - component: {fileID: 1042074031}
   - component: {fileID: 1042074033}
+  - component: {fileID: 1042074035}
+  - component: {fileID: 1042074034}
   - component: {fileID: 1042074010}
+  - component: {fileID: 1042074037}
+  - component: {fileID: 1042074036}
   m_Layer: 0
   m_Name: Flowchart2
   m_TagString: Untagged
@@ -1271,14 +1275,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 1042074009}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c23faba06619da442a984c0c71a87df4, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1042074011}
-  suppressBlockAutoSelect: 0
-  tagFilter: []
-  FireOn: 1
-  collisionVar: {fileID: 0}
+  itemId: 21
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1405054714}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1042074011
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1302,9 +1319,11 @@ MonoBehaviour:
   itemId: 0
   blockName: "\u795E\u79D8\u58F0\u97F3\u5BF9\u8BDD"
   description: 
-  eventHandler: {fileID: 1042074010}
+  eventHandler: {fileID: 1042074036}
   commandList:
+  - {fileID: 1042074037}
   - {fileID: 1042074014}
+  - {fileID: 1042074034}
   - {fileID: 1042074017}
   - {fileID: 1042074023}
   - {fileID: 1042074025}
@@ -1312,6 +1331,7 @@ MonoBehaviour:
   - {fileID: 1042074024}
   - {fileID: 1042074021}
   - {fileID: 1042074032}
+  - {fileID: 1042074010}
   - {fileID: 1042074020}
   - {fileID: 1042074031}
   - {fileID: 1042074030}
@@ -1321,6 +1341,7 @@ MonoBehaviour:
   - {fileID: 1042074019}
   - {fileID: 1042074033}
   - {fileID: 1042074018}
+  - {fileID: 1042074035}
   - {fileID: 1042074027}
   suppressAllAutoSelections: 0
 --- !u!114 &1042074012
@@ -1350,7 +1371,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1042074011}
   selectedCommands:
-  - {fileID: 1042074014}
+  - {fileID: 1042074035}
   variables: []
   description: 
   stepPause: 0
@@ -1926,6 +1947,113 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1042074034
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042074009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 20
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1405054714}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7b776cbb868c8444c9b652516bbe4fc1, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1385969024}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1042074035
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042074009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 19
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1871420531}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1042074036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042074009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23faba06619da442a984c0c71a87df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1042074011}
+  suppressBlockAutoSelect: 0
+  tagFilter: []
+  FireOn: 1
+  collisionVar: {fileID: 0}
+--- !u!114 &1042074037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042074009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1871420531}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1206076311}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1206076310
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,7 +2821,6 @@ GameObject:
   - component: {fileID: 1522556462}
   - component: {fileID: 1522556458}
   - component: {fileID: 1522556460}
-  - component: {fileID: 1522556463}
   - component: {fileID: 1522556461}
   - component: {fileID: 1522556459}
   - component: {fileID: 1522556465}
@@ -2702,6 +2829,7 @@ GameObject:
   - component: {fileID: 1522556467}
   - component: {fileID: 1522556468}
   - component: {fileID: 1522556469}
+  - component: {fileID: 1522556463}
   m_Layer: 0
   m_Name: Flowchart1
   m_TagString: Untagged
@@ -2736,7 +2864,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1522556460}
   selectedCommands:
-  - {fileID: 1522556466}
+  - {fileID: 1522556469}
   variables: []
   description: 
   stepPause: 0
@@ -2839,7 +2967,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1522556463
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2854,7 +2982,7 @@ MonoBehaviour:
   waitForFrames: 1
 --- !u!114 &1522556464
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2884,7 +3012,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1522556465
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2911,7 +3039,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1522556466
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2941,7 +3069,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1522556467
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2959,7 +3087,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1522556468
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2977,7 +3105,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1522556469
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2996,7 +3124,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1206076311}
+  toPosition: {fileID: 0}
   facing: 1
   useDefaultSettings: 1
   fadeDuration: 0.5
