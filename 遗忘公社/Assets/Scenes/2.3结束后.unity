@@ -216,6 +216,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noteIndex: 0
+--- !u!114 &9385212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9385210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a3481d7fa2a3e46a3797b494570cf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breaks: {fileID: 9385210}
 --- !u!1 &74531423
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,10 +293,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 155233487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b0ff8cc61ed2614a81f21381a040463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 1341187686}
 --- !u!1001 &211174008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -359,10 +372,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 211174009}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: f4a3481d7fa2a3e46a3797b494570cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 211174009}
 --- !u!114 &211174011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -502,6 +515,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2365339185658317056, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 608365881}
     - target: {fileID: 2365339185658317059, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_Name
       value: Checkbox 5 (1)
@@ -566,10 +583,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 463600627}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 199aa642d5f45904eadacdc833368603, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b0ff8cc61ed2614a81f21381a040463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 1555421314}
 --- !u!1001 &481697008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -645,23 +662,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 481697009}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: f4a3481d7fa2a3e46a3797b494570cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
---- !u!114 &481697011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 481697009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83a5251ca1a76154892f0b4a72292dc4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noteIndex: 0
+  breaks: {fileID: 481697009}
 --- !u!1001 &488658896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -669,6 +673,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2365339185658317056, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 608365881}
     - target: {fileID: 2365339185658317059, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_Name
       value: Checkbox 5 (3)
@@ -733,10 +741,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 488658897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b0ff8cc61ed2614a81f21381a040463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 1555421314}
 --- !u!1 &589665134
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,6 +781,7 @@ RectTransform:
   - {fileID: 1385969024}
   - {fileID: 1002286513}
   - {fileID: 680481}
+  - {fileID: 608365884}
   m_Father: {fileID: 286095548}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -854,6 +863,85 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &608365881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 608365884}
+  - component: {fileID: 608365883}
+  - component: {fileID: 608365882}
+  m_Layer: 5
+  m_Name: dont delete this
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &608365882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608365881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &608365883
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608365881}
+  m_CullTransparentMesh: 1
+--- !u!224 &608365884
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608365881}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.00000049815, y: 0.099568, z: 1}
+  m_Children: []
+  m_Father: {fileID: 589665135}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1220, y: -627.4}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &677005662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -926,6 +1014,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2365339185658317056, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 608365881}
     - target: {fileID: 2365339185658317059, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_Name
       value: Checkbox 5 (6)
@@ -936,7 +1028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2365339185658317060, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_LocalScale.x
-      value: 11.374223
+      value: 9.099379
       objectReference: {fileID: 0}
     - target: {fileID: 2365339185658317060, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -994,10 +1086,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 717566354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b0ff8cc61ed2614a81f21381a040463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 1620355775}
 --- !u!1001 &971368950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1005,6 +1097,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2365339185658317056, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 608365881}
     - target: {fileID: 2365339185658317059, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_Name
       value: Checkbox 5 (5)
@@ -1069,10 +1165,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 971368951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b0ff8cc61ed2614a81f21381a040463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 481697009}
 --- !u!1001 &996191437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1080,6 +1176,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2365339185658317056, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 608365881}
     - target: {fileID: 2365339185658317059, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_Name
       value: Checkbox 5
@@ -1219,10 +1319,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1020841263}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80f62a39b85a67a4cb2211ce87ecabec, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b0ff8cc61ed2614a81f21381a040463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 9385210}
 --- !u!1 &1042074009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,6 +2301,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2365339185658317056, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 608365881}
     - target: {fileID: 2365339185658317059, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_Name
       value: Checkbox 5 (2)
@@ -2339,10 +2443,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1341187686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: f4a3481d7fa2a3e46a3797b494570cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 1341187686}
 --- !u!1001 &1385090324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2761,10 +2865,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1477886572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: f4a3481d7fa2a3e46a3797b494570cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 1477886572}
 --- !u!114 &1477886574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3212,6 +3316,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noteIndex: 0
+--- !u!114 &1555421316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555421314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a3481d7fa2a3e46a3797b494570cf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breaks: {fileID: 1555421314}
 --- !u!1001 &1620355774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3291,10 +3408,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1620355775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: f4a3481d7fa2a3e46a3797b494570cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 1620355775}
 --- !u!114 &1620355777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3590,6 +3707,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2365339185658317056, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 608365881}
     - target: {fileID: 2365339185658317059, guid: eedf5fa98210ab14e98b2762f490a2ce, type: 3}
       propertyPath: m_Name
       value: Checkbox 5 (4)
@@ -3654,7 +3775,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2068137302}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 600c77b566c62d84b9aaf05911ae6933, type: 3}
+  m_Script: {fileID: 11500000, guid: 2b0ff8cc61ed2614a81f21381a040463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakblock: {fileID: 0}
+  breaks: {fileID: 211174009}
