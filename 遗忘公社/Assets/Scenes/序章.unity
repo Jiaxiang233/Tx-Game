@@ -525,6 +525,10 @@ GameObject:
   - component: {fileID: 558203399}
   - component: {fileID: 558203397}
   - component: {fileID: 558203389}
+  - component: {fileID: 558203410}
+  - component: {fileID: 558203409}
+  - component: {fileID: 558203396}
+  - component: {fileID: 558203411}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -589,6 +593,10 @@ MonoBehaviour:
   - {fileID: 558203404}
   - {fileID: 558203400}
   - {fileID: 558203399}
+  - {fileID: 558203410}
+  - {fileID: 558203409}
+  - {fileID: 558203396}
+  - {fileID: 558203411}
   - {fileID: 558203397}
   - {fileID: 558203389}
   suppressAllAutoSelections: 0
@@ -619,7 +627,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 558203390}
   selectedCommands:
-  - {fileID: 558203389}
+  - {fileID: 558203409}
   variables: []
   description: 
   stepPause: 0
@@ -705,6 +713,36 @@ MonoBehaviour:
   parentBlock: {fileID: 558203390}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &558203396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558203388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 177303812}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 42c8368b0410f2f478898b3410916000, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1679662576}
+  facing: 2
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &558203397
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1033,6 +1071,87 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &558203409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558203388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 69
+  indentLevel: 0
+  storyText: ......
+  description: 
+  character: {fileID: 177303812}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &558203410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558203388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  storyText: "\u5C4F\u5E55\u5DE6\u4FA7\u7684\u6447\u6746\u53EF\u4EE5\u63A7\u5236\u5DE6\u53F3\u79FB\u52A8\uFF0C\u5355\u51FB\u53F3\u4FA7\u5C4F\u5E55\u53EF\u4EE5\u8DF3\u8DC3\uFF0C\u70B9\u51FB\u4E24\u6B21\u53EF\u4EE5\u4E8C\u6BB5\u8DF3\u54E6~"
+  description: 
+  character: {fileID: 177303812}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &558203411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558203388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 71
+  indentLevel: 0
+  storyText: "\u8BF6\uFF1F\u6211\u521A\u521A\u5728\u8DDF\u8C01\u8BF4\u8BDD\uFF1F"
+  description: 
+  character: {fileID: 177303812}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!61 &558203423
 BoxCollider2D:
   m_ObjectHideFlags: 0
