@@ -638,6 +638,8 @@ GameObject:
   - component: {fileID: 558203429}
   - component: {fileID: 558203431}
   - component: {fileID: 558203430}
+  - component: {fileID: 558203433}
+  - component: {fileID: 558203432}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -678,7 +680,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 75.449005
     y: 141.21951
-    width: 77
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -722,7 +724,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 558203396}
   selectedCommands:
-  - {fileID: 558203430}
+  - {fileID: 558203421}
   variables: []
   description: 
   stepPause: 0
@@ -839,7 +841,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 278.80466
     y: 141.22804
-    width: 80
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -867,8 +869,10 @@ MonoBehaviour:
   - {fileID: 558203405}
   - {fileID: 558203419}
   - {fileID: 558203429}
+  - {fileID: 558203433}
   - {fileID: 558203427}
   - {fileID: 558203428}
+  - {fileID: 558203432}
   - {fileID: 558203400}
   - {fileID: 558203415}
   - {fileID: 558203430}
@@ -1355,7 +1359,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1625397032}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 3c6e3f5f3f3247d4b86e338a85c1bac9, type: 3}
+  portrait: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 340667048}
@@ -1538,7 +1542,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 441620564}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: cb65e9083c1f0934eb11511de607d0ef, type: 3}
+  portrait: {fileID: 21300000, guid: 111c4a92f36af3945a527927ee420247, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -1808,7 +1812,7 @@ MonoBehaviour:
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &558203431
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1832,6 +1836,66 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &558203432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558203388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1625397032}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 2
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &558203433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558203388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 67
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1625397032}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8c95d5e24f3d2784dae1681e7edb75a5, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 1
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -2860,6 +2924,18 @@ PrefabInstance:
       propertyPath: portraitsFace
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4638889494560980486, guid: 7da601835f1f3e648a5519a557e914e6, type: 3}
+      propertyPath: portraits.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638889494560980486, guid: 7da601835f1f3e648a5519a557e914e6, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c95d5e24f3d2784dae1681e7edb75a5, type: 3}
+    - target: {fileID: 4638889494560980486, guid: 7da601835f1f3e648a5519a557e914e6, type: 3}
+      propertyPath: portraits.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
     - target: {fileID: 4638889494560980488, guid: 7da601835f1f3e648a5519a557e914e6, type: 3}
       propertyPath: m_Name
       value: "\u8001\u677F"
@@ -2961,6 +3037,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6127579856565790361, guid: dae4b602c5b7180408944c2aa75e8d27, type: 3}
+      propertyPath: portraits.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6127579856565790361, guid: dae4b602c5b7180408944c2aa75e8d27, type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 111c4a92f36af3945a527927ee420247, type: 3}
     - target: {fileID: 6127579856565790366, guid: dae4b602c5b7180408944c2aa75e8d27, type: 3}
       propertyPath: m_Name
       value: "\u5434\u660E\u4E16"
