@@ -230,7 +230,7 @@ PrefabInstance:
       objectReference: {fileID: 1888913967}
     - target: {fileID: 1042074011, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: commandList.Array.size
-      value: 30
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 1042074011, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: commandList.Array.data[8]
@@ -315,15 +315,23 @@ PrefabInstance:
     - target: {fileID: 1042074011, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: commandList.Array.data[28]
       value: 
-      objectReference: {fileID: 1247996509}
+      objectReference: {fileID: 1888913971}
     - target: {fileID: 1042074011, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: commandList.Array.data[29]
+      value: 
+      objectReference: {fileID: 1247996509}
+    - target: {fileID: 1042074011, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
+      propertyPath: commandList.Array.data[30]
       value: 
       objectReference: {fileID: 1247996498}
     - target: {fileID: 1042074012, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1042074012, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
+      propertyPath: selectedCommands.Array.data[0]
+      value: 
+      objectReference: {fileID: 1888913965}
     - target: {fileID: 1042074037, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: portrait
       value: 
@@ -338,7 +346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2773606794697555064, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: portraits.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2773606794697555064, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: portraits.Array.data[0]
@@ -356,6 +364,10 @@ PrefabInstance:
       propertyPath: portraits.Array.data[3]
       value: 
       objectReference: {fileID: 21300000, guid: b75fe862ec7568e45bacf54c2cb67ff6, type: 3}
+    - target: {fileID: 2773606794697555064, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 18d9ef83f686a5441ba0ae857715fc91, type: 3}
     - target: {fileID: 7528510038470216751, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -758,7 +770,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1247996493}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
+  portrait: {fileID: 21300000, guid: 18d9ef83f686a5441ba0ae857715fc91, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1247996492}
@@ -770,6 +782,17 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1888913965 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1042074044, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
+  m_PrefabInstance: {fileID: 1247996491}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888913958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1888913967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -785,6 +808,36 @@ MonoBehaviour:
   parentBlock: {fileID: 1888913992}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &1888913971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888913958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1247996493}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1247996492}
+  facing: 1
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &1888913992 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1042074011, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
