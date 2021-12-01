@@ -2112,7 +2112,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 9952c1710a614c744bf9fe608edb7640, type: 3}
     - target: {fileID: 3736890032148457471, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: moveDistance
-      value: 298
+      value: 305
       objectReference: {fileID: 0}
     - target: {fileID: 5082844632024654794, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: Changer2
