@@ -5,8 +5,12 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
+    public GameObject PauseButton; 
+    public GameObject Changer2;
+
+    public AudioSource audioClip;
+
     bool GamePaused;
-    public GameObject PauseButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,5 +36,13 @@ public class PauseMenu : MonoBehaviour
         GamePaused = false;
         pauseMenu.SetActive(false);
         PauseButton.SetActive(true);
+    }
+    public void Skip()
+    {
+        GamePaused = false;
+        Changer2.SetActive(true);
+        pauseMenu.SetActive(false);
+        audioClip.Play();
+        Time.timeScale = 1;
     }
 }
