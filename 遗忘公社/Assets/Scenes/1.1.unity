@@ -1440,6 +1440,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 3650950350232303571, guid: 126e0469f4310594bbe4087e69f2df02, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 126e0469f4310594bbe4087e69f2df02, type: 3}
 --- !u!1 &1136593183
@@ -1849,6 +1853,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 971484063}
     - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+      propertyPath: transTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: position.x
       value: 111
       objectReference: {fileID: 0}
@@ -1860,6 +1868,10 @@ PrefabInstance:
       propertyPath: sceneindex
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+      propertyPath: transition
+      value: 
+      objectReference: {fileID: 426343694}
     - target: {fileID: 2306597918236289872, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: SceneChanger
       value: 

@@ -8,10 +8,17 @@ public class MelodyCheck : MonoBehaviour
     [Header("Melody List")]
     public List<int> answerMelodyList;  // Fixed Length
     public List<int> currentMelodyList;
+
     public Vector3 position;
+
     public GameObject SceneChanger;
+
     public AudioSource audioClip;
+
+    public Animator transition;
+
     public int sceneindex;
+    public float transTime = 1f;
 
     public void CheckCurrentMelodyList()
     {
@@ -27,9 +34,9 @@ public class MelodyCheck : MonoBehaviour
                 Debug.Log("Check Fail, Clear the currentMelodyList");
                 currentMelodyList.Clear();
                 MusicScore.Instance.ScoreRes();
-                DestroyImmediate(gameObject);
-                gameObject.transform.position = position;
-                SceneManager.LoadScene(sceneindex);
+                //DestroyImmediate(gameObject);
+                //gameObject.transform.position = position;
+                ReloadLevel();
                 return;
             }
         }
@@ -50,6 +57,19 @@ public class MelodyCheck : MonoBehaviour
         }
 
     }
-     
+    public void ReloadLevel()
+    {
+        StartCoroutine(LoadLevel());
+    }
+
+    IEnumerator LoadLevel()
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transTime);
+
+        SceneManager.LoadScene(sceneindex);
+    }
+
 
 }
