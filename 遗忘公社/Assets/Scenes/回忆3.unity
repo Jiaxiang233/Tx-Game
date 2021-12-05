@@ -626,6 +626,7 @@ GameObject:
   - component: {fileID: 733513141}
   - component: {fileID: 733513137}
   - component: {fileID: 733513136}
+  - component: {fileID: 733513126}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -664,7 +665,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83
     y: 243
-    width: 60
+    width: 81.86813
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -702,6 +703,7 @@ MonoBehaviour:
   - {fileID: 733513116}
   - {fileID: 733513123}
   - {fileID: 733513115}
+  - {fileID: 733513126}
   suppressAllAutoSelections: 0
 --- !u!114 &733513109
 MonoBehaviour:
@@ -730,7 +732,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 733513108}
   selectedCommands:
-  - {fileID: 733513124}
+  - {fileID: 733513129}
   variables: []
   description: 
   stepPause: 0
@@ -1200,6 +1202,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &733513126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733513106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: "\u5C3E\u58F0\u524D"
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &733513127
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1269,7 +1290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: "\u8FD9\u4E5F\u662F\u4F60\u7684\u8BB0\u5FC6\uFF0C\u4F60\u7684\u5F62\u8C61\u4E00\u76F4\u662F\u8FD9\u6837\u7684\u539F\u56E0\u3002"
+  storyText: "\u8FD9\u4E5F\u662F\u4F60\u7684\u8BB0\u5FC6\u4E2D\uFF0C\u4F60\u7684\u5F62\u8C61\u4E00\u76F4\u662F\u8FD9\u6837\u7684\u539F\u56E0\u3002"
   description: 
   character: {fileID: 1254628182}
   portrait: {fileID: 0}

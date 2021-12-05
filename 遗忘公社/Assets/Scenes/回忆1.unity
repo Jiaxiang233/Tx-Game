@@ -2653,14 +2653,14 @@ MonoBehaviour:
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: c849b4688a483aa4aa9bd8f70a541ba0, type: 3}
   offset: 0
-  fromPosition: {fileID: 1522543514}
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 1679662576}
   facing: 2
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &1631407000
@@ -2938,7 +2938,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1631407002}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1631406999}
   variables: []
   description: 
   stepPause: 0
@@ -3311,7 +3312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 558203391}
+  selectedFlowchart: {fileID: 1631407009}
 --- !u!4 &1851238701
 Transform:
   m_ObjectHideFlags: 1
