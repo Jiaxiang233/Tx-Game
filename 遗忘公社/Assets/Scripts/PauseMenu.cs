@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
     public GameObject PauseButton; 
     public GameObject Changer2;
+    public GameObject pausemenu;
+    public GameObject skipmeun;
 
     public AudioSource audioClip;
 
@@ -44,5 +47,23 @@ public class PauseMenu : MonoBehaviour
         pauseMenu.SetActive(false);
         audioClip.Play();
         Time.timeScale = 1;
+    }
+    public void skipscene1()
+    {
+        SceneManager.LoadScene(1);//´ý¶¨
+    }
+    public void skipscene2()
+    {
+        SceneManager.LoadScene(2);//´ý¶¨
+    }
+    public void skip()
+    {
+        pausemenu.SetActive(false);
+        skipmeun.SetActive(true);
+    }
+    public void returnmenu()
+    {
+        pausemenu.SetActive(true);
+        skipmeun.SetActive(false);
     }
 }
