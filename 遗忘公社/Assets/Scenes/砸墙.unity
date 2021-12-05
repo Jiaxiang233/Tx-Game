@@ -1771,7 +1771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  text: "\u7838\uFF01"
+  text: "\u7838"
   description: 
   targetBlock: {fileID: 1888913977}
   hideIfVisited: 0
@@ -1796,7 +1796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 403.035
+    x: 404.17136
     y: 196.05264
     width: 60
     height: 40
@@ -1830,6 +1830,25 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
+--- !u!114 &1888913979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888913958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 83
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: "\u56DE\u5FC63"
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!114 &1888913980
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1918,6 +1937,8 @@ MonoBehaviour:
   - {fileID: 1888913982}
   - {fileID: 1888913981}
   - {fileID: 1888913980}
+  - {fileID: 1888914007}
+  - {fileID: 1888913979}
   suppressAllAutoSelections: 0
 --- !u!114 &1888913984
 MonoBehaviour:
@@ -2048,7 +2069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  text: "\u7838\uFF01"
+  text: "\u7838\uFF01\uFF01\uFF01"
   description: 
   targetBlock: {fileID: 1888914000}
   hideIfVisited: 0
@@ -2185,7 +2206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 61
   indentLevel: 0
-  text: "\u7838\uFF01"
+  text: "\u7838\uFF01\uFF01\uFF01\uFF01"
   description: 
   targetBlock: {fileID: 1888913983}
   hideIfVisited: 0
@@ -2300,7 +2321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  text: "\u7838\uFF01"
+  text: "\u7838\uFF01\uFF01"
   description: 
   targetBlock: {fileID: 1888913995}
   hideIfVisited: 0
@@ -2426,6 +2447,24 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1888914007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888913958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 82
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &2010690767
 GameObject:
   m_ObjectHideFlags: 0

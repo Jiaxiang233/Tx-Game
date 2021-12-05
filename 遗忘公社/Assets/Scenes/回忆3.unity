@@ -168,6 +168,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "\u6447\u6EDA"
       objectReference: {fileID: 0}
+    - target: {fileID: 8709398624632616545, guid: 0b6da9afe76ef5642ac65d0d4d202283, type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8709398624632616545, guid: 0b6da9afe76ef5642ac65d0d4d202283, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 18d9ef83f686a5441ba0ae857715fc91, type: 3}
     - target: {fileID: 8709398624632616550, guid: 0b6da9afe76ef5642ac65d0d4d202283, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -604,7 +612,6 @@ GameObject:
   - component: {fileID: 733513123}
   - component: {fileID: 733513125}
   - component: {fileID: 733513127}
-  - component: {fileID: 733513126}
   - component: {fileID: 733513135}
   - component: {fileID: 733513134}
   - component: {fileID: 733513133}
@@ -667,7 +674,6 @@ MonoBehaviour:
   eventHandler: {fileID: 733513107}
   commandList:
   - {fileID: 733513127}
-  - {fileID: 733513126}
   - {fileID: 733513141}
   - {fileID: 733513112}
   - {fileID: 733513111}
@@ -724,7 +730,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 733513108}
   selectedCommands:
-  - {fileID: 733513129}
+  - {fileID: 733513124}
   variables: []
   description: 
   stepPause: 0
@@ -1194,27 +1200,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &733513126
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 733513106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 16
-  indentLevel: 0
-  duration: 1
-  targetView: {fileID: 1795802625}
-  waitUntilFinished: 1
-  targetCamera: {fileID: 0}
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
 --- !u!114 &733513127
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1615,7 +1600,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1913605439}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
+  portrait: {fileID: 21300000, guid: 18d9ef83f686a5441ba0ae857715fc91, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 596966698}

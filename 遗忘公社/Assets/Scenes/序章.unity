@@ -571,7 +571,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 89.449005
     y: 139.21951
-    width: 60
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -627,7 +627,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 558203390}
   selectedCommands:
-  - {fileID: 558203409}
+  - {fileID: 558203410}
   variables: []
   description: 
   stepPause: 0
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 68
   indentLevel: 0
-  storyText: "\u5C4F\u5E55\u5DE6\u4FA7\u7684\u6447\u6746\u53EF\u4EE5\u63A7\u5236\u5DE6\u53F3\u79FB\u52A8\uFF0C\u5355\u51FB\u53F3\u4FA7\u5C4F\u5E55\u53EF\u4EE5\u8DF3\u8DC3\uFF0C\u70B9\u51FB\u4E24\u6B21\u53EF\u4EE5\u4E8C\u6BB5\u8DF3\u54E6~"
+  storyText: "\u5C4F\u5E55\u201C\u5DE6\u4FA7\u201D\u7684\u201C\u6447\u6746\u201D\u53EF\u4EE5\u63A7\u5236\u201C\u5DE6\u53F3\u79FB\u52A8\u201D\uFF0C\u201C\u5355\u51FB\u53F3\u4FA7\u201D\u5C4F\u5E55\u53EF\u4EE5\u201C\u8DF3\u8DC3\u201D\uFF0C\u201C\u70B9\u51FB\u4E24\u6B21\u201D\u53EF\u4EE5\u201C\u4E8C\u6BB5\u8DF3\u201D\u54E6~"
   description: 
   character: {fileID: 177303812}
   portrait: {fileID: 0}
