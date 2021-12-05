@@ -724,7 +724,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 558203396}
   selectedCommands:
-  - {fileID: 558203421}
+  - {fileID: 558203432}
   variables: []
   description: 
   stepPause: 0
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 278.80466
+    x: 280.80466
     y: 141.22804
     width: 80
     height: 40
@@ -874,8 +874,8 @@ MonoBehaviour:
   - {fileID: 558203428}
   - {fileID: 558203432}
   - {fileID: 558203400}
-  - {fileID: 558203415}
   - {fileID: 558203430}
+  - {fileID: 558203415}
   - {fileID: 558203431}
   - {fileID: 558203426}
   - {fileID: 558203422}
@@ -1861,7 +1861,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1625397032}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
+  portrait: {fileID: 21300000, guid: b75fe862ec7568e45bacf54c2cb67ff6, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -3419,7 +3419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1631407009}
+  selectedFlowchart: {fileID: 558203391}
 --- !u!4 &1851238701
 Transform:
   m_ObjectHideFlags: 1
@@ -3452,11 +3452,11 @@ PrefabInstance:
     - target: {fileID: 4638889494560980486, guid: 7da601835f1f3e648a5519a557e914e6, type: 3}
       propertyPath: portraits.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 8c95d5e24f3d2784dae1681e7edb75a5, type: 3}
+      objectReference: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
     - target: {fileID: 4638889494560980486, guid: 7da601835f1f3e648a5519a557e914e6, type: 3}
       propertyPath: portraits.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 45857579d8981e043a172b2932c44368, type: 3}
+      objectReference: {fileID: 21300000, guid: b75fe862ec7568e45bacf54c2cb67ff6, type: 3}
     - target: {fileID: 4638889494560980488, guid: 7da601835f1f3e648a5519a557e914e6, type: 3}
       propertyPath: m_Name
       value: "\u8001\u677F"
