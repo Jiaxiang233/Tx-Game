@@ -50,11 +50,11 @@ public class PauseMenu : MonoBehaviour
     }
     public void skipscene1()
     {
-        SceneManager.LoadScene(1);//待定
+        SceneManager.LoadScene(8);//待定
     }
     public void skipscene2()
     {
-        SceneManager.LoadScene(2);//待定
+        SceneManager.LoadScene(12);//待定
     }
     public void skip()
     {

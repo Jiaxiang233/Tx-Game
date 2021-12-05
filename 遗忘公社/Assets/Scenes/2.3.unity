@@ -412,7 +412,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217198536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 87.11711, y: 13.424124, z: -10}
+  m_LocalPosition: {x: 87.11169, y: 13.424124, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -826,9 +826,13 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.1397929
       objectReference: {fileID: 0}
-    - target: {fileID: 1165644611432905049, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+    - target: {fileID: 1049678471205692012, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1165644611432905049, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1165644611432905049, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_SizeDelta.x
@@ -969,6 +973,10 @@ PrefabInstance:
     - target: {fileID: 3736890032148457471, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: moveDistance
       value: 358
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081490000962061336, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: moveDistance
+      value: 465
       objectReference: {fileID: 0}
     - target: {fileID: 4425447827637482530, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_LocalScale.x
@@ -3072,7 +3080,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1733746377}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 87.11711, y: 13.424124, z: -10}
+  m_LocalPosition: {x: 87.11169, y: 13.424124, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 302646625}
@@ -3771,7 +3779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   i: {x: 87, y: 9.1, z: 0}
   text: {fileID: 44879468}
-  sceneindex: 8
+  sceneindex: 11
 --- !u!212 &2105994956
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -33,7 +33,6 @@ public class Death12 : MonoBehaviour
             text.SetActive(true);
             other.gameObject.transform.position = i;
             SceneManager.LoadScene(sceneindex);
-
         }
     }
 }
