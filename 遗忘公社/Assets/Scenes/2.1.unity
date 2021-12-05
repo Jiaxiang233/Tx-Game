@@ -711,7 +711,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4548148978221079762, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: SceneIndex
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4548148978221079762, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: transition
@@ -1783,7 +1783,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4548148978221079762, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: SceneIndex
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4548148978221079762, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: transition
