@@ -17,6 +17,7 @@ EditorUserSettings:
     RecentlyUsedScenePath-3:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036cdaf5c592f5eb7dacfeeb633c133af6f9
       flags: 0
     RecentlyUsedScenePath-4:
@@ -35,6 +36,18 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-5:
       value: 22424703114646680e0b0227036c0e5e45590d24253c3f
+=======
+      value: 22424703114646680e0b0227036c0e5e47590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c0e5e44590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c0e5e45590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646680e0b0227036c0e5e42590d24253c3f
+>>>>>>> parent of fe64d19 (修改顺序)
       flags: 0
     RecentlyUsedScenePath-6:
       value: 22424703114646680e0b0227036c0e5e42590d24253c3f
@@ -42,6 +55,7 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c0d5e47590d24253c3f
+<<<<<<< HEAD
 =======
       value: 22424703114646680e0b0227036c0e5e47590d24253c3f
       flags: 0
@@ -56,6 +70,11 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c0d5e47590d24253c3f
+=======
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680e0b0227036c0d5e44590d24253c3f
+>>>>>>> parent of fe64d19 (修改顺序)
       flags: 0
     RecentlyUsedScenePath-8:
       value: 22424703114646680e0b0227036c0d5e44590d24253c3f
@@ -67,6 +86,7 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-9:
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c0e5e42590d24253c3f
 =======
       value: 22424703114646680e0b0227036c0d5e44590d24253c3f
@@ -75,6 +95,9 @@ EditorUserSettings:
 >>>>>>> parent of fe64d19 (修改顺序)
       flags: 0
     RecentlyUsedScenePath-9:
+      value: 22424703114646680e0b0227036c0d5e45590d24253c3f
+>>>>>>> parent of fe64d19 (修改顺序)
+=======
       value: 22424703114646680e0b0227036c0d5e45590d24253c3f
 >>>>>>> parent of fe64d19 (修改顺序)
       flags: 0
