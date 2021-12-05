@@ -15,6 +15,7 @@ EditorUserSettings:
       value: 22424703114646680e0b0227036cdaf5c592f5eb7dacfeeb633c133af6f9
       flags: 0
     RecentlyUsedScenePath-3:
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036cdaebe892c7cc7d66333e243d04
       flags: 0
     RecentlyUsedScenePath-4:
@@ -31,9 +32,27 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-8:
       value: 22424703114646680e0b0227036c0e5e42590d24253c3f
+=======
+      value: 22424703114646680e0b0227036c0e5e47590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-4:
+      value: 22424703114646680e0b0227036c0e5e44590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-5:
+      value: 22424703114646680e0b0227036c0e5e45590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-6:
+      value: 22424703114646680e0b0227036c0e5e42590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-7:
+      value: 22424703114646680e0b0227036c0d5e47590d24253c3f
+      flags: 0
+    RecentlyUsedScenePath-8:
+      value: 22424703114646680e0b0227036c0d5e44590d24253c3f
+>>>>>>> parent of fe64d19 (修改顺序)
       flags: 0
     RecentlyUsedScenePath-9:
-      value: 22424703114646680e0b0227036c0d5e44590d24253c3f
+      value: 22424703114646680e0b0227036c0d5e45590d24253c3f
       flags: 0
     UnityRemoteDevice:
       value: 225f4d46245b0d4902070862342649191512
