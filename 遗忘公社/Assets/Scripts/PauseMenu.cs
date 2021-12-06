@@ -10,6 +10,9 @@ public class PauseMenu : MonoBehaviour
     public GameObject Changer2;
     public GameObject pausemenu;
     public GameObject skipmeun;
+    public GameObject musicscore;
+    public GameObject musicsocrebackground;
+
 
     public AudioSource audioClip;
 
@@ -33,12 +36,16 @@ public class PauseMenu : MonoBehaviour
         GamePaused = true;
         pauseMenu.SetActive(true);
         PauseButton.SetActive(false);
+        musicscore.SetActive(false);
+        musicsocrebackground.SetActive(false);
     }
     public void ResumeGame()
     {
         GamePaused = false;
         pauseMenu.SetActive(false);
         PauseButton.SetActive(true);
+        musicscore.SetActive(true);
+        musicsocrebackground.SetActive(true);
     }
     public void Skip()
     {
