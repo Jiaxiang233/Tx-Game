@@ -372,6 +372,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d8dae55ccacb3446abbf795b14a2d11, type: 3}
+--- !u!1 &436589008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135119755339257076, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+  m_PrefabInstance: {fileID: 2123510687}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &461785259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3510,7 +3515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1135119755339257079, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 550
+      value: 545
       objectReference: {fileID: 0}
     - target: {fileID: 1165644611432905049, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_RootOrder
@@ -3715,7 +3720,7 @@ PrefabInstance:
     - target: {fileID: 5082844632024654794, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: musicsocrebackground
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 436589008}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
 --- !u!114 &2123510688 stripped

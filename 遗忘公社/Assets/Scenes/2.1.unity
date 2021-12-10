@@ -1271,7 +1271,7 @@ PrefabInstance:
     - target: {fileID: 5082844632024654794, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: musicsocrebackground
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 776772874}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
 --- !u!114 &776772872 stripped
@@ -1288,6 +1288,11 @@ MonoBehaviour:
 --- !u!1 &776772873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1526798229842043594, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+  m_PrefabInstance: {fileID: 776772871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &776772874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1135119755339257076, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
   m_PrefabInstance: {fileID: 776772871}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &854570181 stripped
@@ -1851,7 +1856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4548148978221079766, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
