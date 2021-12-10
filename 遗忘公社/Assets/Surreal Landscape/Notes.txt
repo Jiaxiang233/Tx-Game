@@ -1,0 +1,9 @@
+This set was designed with a 2048 x 2732 in mind. Scale it up or down to your needs.
+
+Landscape folder includes more scenery sprites, like a tileable ground, static background sky, rocky hills, dust and clouds. 
+Play with the settings to build a proper landscape, lower the opacity on rocks as they get farther and farther from the camera, make them darker if they are the closest thing in the scene and would go over the player, etc. 
+Dust is another thing that creates ambient, lower the opacity to your choosing.
+
+Objects are pretty straightforward but a few notes:
+Eye_1 to Eye_3 can work as an animation.
+I created PortalBGs to mimick Portal_1, that way you can choose what's behind each portal if you don't wish to use this.
