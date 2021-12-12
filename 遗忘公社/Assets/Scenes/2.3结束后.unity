@@ -303,7 +303,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u5FEB\u4E86\uFF0C\u5C31\u5FEB\u6210\u4E86\uFF01"
   description: 
-  character: {fileID: 615908373}
+  character: {fileID: 1871420531}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2228,7 +2228,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1522556460}
   selectedCommands:
-  - {fileID: 1522556469}
+  - {fileID: 1522556464}
   variables: []
   description: 
   stepPause: 0
@@ -2270,7 +2270,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 165
     y: 113
-    width: 60
+    width: 74
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2279,8 +2279,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1522556463}
   commandList:
-  - {fileID: 1522556464}
   - {fileID: 1522556461}
+  - {fileID: 1522556464}
   - {fileID: 1522556468}
   - {fileID: 1522556469}
   - {fileID: 1522556467}
@@ -3790,6 +3790,10 @@ PrefabInstance:
     - target: {fileID: 401169358295288005, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: m_Name
       value: "2.3\u540E\u7684\u540E"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773606795374388124, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -1203
       objectReference: {fileID: 0}
     - target: {fileID: 7528510038470216751, guid: 3584eb92e8c10844cac8f5b200633ea8, type: 3}
       propertyPath: m_RootOrder
