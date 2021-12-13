@@ -395,7 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audio1: {fileID: 8300000, guid: ea6b9ce37b450544aa496b55e62958e3, type: 3}
   audio2: {fileID: 8300000, guid: 5535bfce66f0429489fa8223847e967d, type: 3}
-  image1: {fileID: 21300000, guid: 5e589808c48eb1546a75bcddbf694956, type: 3}
+  image1: {fileID: 21300000, guid: 45a869d88d23f3a40b02a0090c321c06, type: 3}
   image2: {fileID: 21300000, guid: 01313c9743f014f4e81c450e19284aec, type: 3}
 --- !u!1001 &429926453
 PrefabInstance:
