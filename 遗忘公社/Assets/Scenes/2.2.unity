@@ -375,8 +375,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288399982}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 155.70001, y: 18.7, z: 0}
-  m_LocalScale: {x: 0.67521, y: 0.67521, z: 0.67521}
+  m_LocalPosition: {x: 155.70001, y: 20.5074, z: 0}
+  m_LocalScale: {x: 0.67521, y: 0.717073, z: 0.67521}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -457,8 +457,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 327087299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.7, y: 18.7, z: 0}
-  m_LocalScale: {x: 0.67521, y: 0.67521, z: 0.67521}
+  m_LocalPosition: {x: 59.7, y: 20.4011, z: 0}
+  m_LocalScale: {x: 0.67521, y: 0.71457475, z: 0.67521}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -612,8 +612,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 397735034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.416, y: 18.7, z: 0}
-  m_LocalScale: {x: 0.67521, y: 0.67521, z: 0.67521}
+  m_LocalPosition: {x: 105.416, y: 20.4011, z: 0}
+  m_LocalScale: {x: 0.67521, y: 0.71457475, z: 0.67521}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -3406,7 +3406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 815869136909181161, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: joystickType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 815869136909181161, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: moveThreshold
