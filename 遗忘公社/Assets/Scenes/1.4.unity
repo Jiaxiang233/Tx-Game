@@ -2351,6 +2351,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.13478476
       objectReference: {fileID: 0}
+    - target: {fileID: 815869136909181161, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: joystickType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 815869136909181161, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: moveThreshold
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 1135119755339257079, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -1123
