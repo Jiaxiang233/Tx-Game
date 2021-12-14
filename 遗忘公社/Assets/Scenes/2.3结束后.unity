@@ -3374,7 +3374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: "\u518D\u719F\u7EC3\u4E00\u70B9\uFF0C\u5728\u719F\u7EC3\u4E00\u70B9\u2026\u2026"
+  storyText: "\u518D\u719F\u7EC3\u4E00\u70B9\uFF0C\u518D\u719F\u7EC3\u4E00\u70B9\u2026\u2026"
   description: 
   character: {fileID: 615908373}
   portrait: {fileID: 0}
