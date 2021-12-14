@@ -60,12 +60,6 @@ EditorBuildSettings:
     path: "Assets/Scenes/\u5C3E\u58F0.unity"
     guid: 0a5998a08a9b64747a546ca10dd086d8
   - enabled: 1
-    path: Assets/Scenes/Trans1.unity
-    guid: f4dc02a4302ac23418e61b5e41e687e9
-  - enabled: 1
-    path: Assets/Scenes/Trans2.unity
-    guid: 23487e07a1ba91941b479511e951592a
-  - enabled: 1
     path: Assets/Scenes/Producer List.unity
     guid: 6da8b6f45cfde394a9cba38706813ee8
   - enabled: 1
