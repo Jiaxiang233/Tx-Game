@@ -12,6 +12,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject skipmeun;
     public GameObject musicscore;
     public GameObject musicsocrebackground;
+    public GameObject jiepaiqi;
+    public GameObject puzibeijing;
 
 
     public AudioSource audioClip;
@@ -38,6 +40,8 @@ public class PauseMenu : MonoBehaviour
         PauseButton.SetActive(false);
         musicscore.SetActive(false);
         musicsocrebackground.SetActive(false);
+        jiepaiqi.SetActive(false);
+        puzibeijing.SetActive(false);
     }
     public void ResumeGame()
     {
@@ -46,6 +50,8 @@ public class PauseMenu : MonoBehaviour
         PauseButton.SetActive(true);
         musicscore.SetActive(true);
         musicsocrebackground.SetActive(true);
+        jiepaiqi.SetActive(true);
+        puzibeijing.SetActive(true);
     }
     public void Skip()
     {

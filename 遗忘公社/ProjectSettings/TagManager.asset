@@ -51,3 +51,9 @@ TagManager:
   - name: Player
     uniqueID: 1339375249
     locked: 0
+  - name: jiepaiqi
+    uniqueID: 2408834047
+    locked: 0
+  - name: button
+    uniqueID: 969812291
+    locked: 0
