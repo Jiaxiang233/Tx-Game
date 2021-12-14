@@ -2433,6 +2433,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -198
       objectReference: {fileID: 0}
+    - target: {fileID: 108997976867940291, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 962
+      objectReference: {fileID: 0}
     - target: {fileID: 672884218485364452, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.13478476
@@ -2487,7 +2491,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 9952c1710a614c744bf9fe608edb7640, type: 3}
     - target: {fileID: 3245268485338191618, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1126
+      value: -1117
       objectReference: {fileID: 0}
     - target: {fileID: 3245268485338191618, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2649,6 +2653,10 @@ PrefabInstance:
       propertyPath: musicsocrebackground
       value: 
       objectReference: {fileID: 1612047926}
+    - target: {fileID: 7327392038227033577, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -976.69995
+      objectReference: {fileID: 0}
     - target: {fileID: 8680762935613047719, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 250
