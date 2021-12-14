@@ -2104,7 +2104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: isonpc
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: joystick
@@ -3450,7 +3450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1165644611432905049, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1165644611432905049, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_SizeDelta.x
@@ -3666,7 +3666,7 @@ PrefabInstance:
       objectReference: {fileID: 436589008}
     - target: {fileID: 6986190714302488286, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7327392038227033577, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_RootOrder

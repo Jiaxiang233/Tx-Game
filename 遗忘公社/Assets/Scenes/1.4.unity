@@ -3066,7 +3066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: isonpc
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: joystick

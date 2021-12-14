@@ -375,7 +375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: isonpc
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: joystick
@@ -600,7 +600,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.449005
     y: 141.21951
-    width: 60
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -761,7 +761,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.80466
     y: 141.22804
-    width: 60
+    width: 80
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

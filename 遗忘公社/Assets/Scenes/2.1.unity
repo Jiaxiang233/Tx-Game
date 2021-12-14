@@ -1390,6 +1390,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 63
       objectReference: {fileID: 0}
+    - target: {fileID: 2423868138076480819, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3209466031829151776, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2942,7 +2946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: isonpc
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: joystick
