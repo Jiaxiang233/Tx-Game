@@ -1173,10 +1173,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 63
       objectReference: {fileID: 0}
-    - target: {fileID: 2818028786420079337, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 221
-      objectReference: {fileID: 0}
     - target: {fileID: 3209466031829151776, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1376,10 +1372,6 @@ PrefabInstance:
     - target: {fileID: 6030388906735248648, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PauseGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 7405740953858973720, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8680762935613047719, guid: 06236fa5eb34d2e45b70aa1b3df45ea6, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2056,7 +2048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4548148978221079765, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4548148978221079766, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: m_Name
@@ -2267,7 +2259,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: isonpc
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567500, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: joystick
@@ -2281,6 +2273,10 @@ PrefabInstance:
       propertyPath: myAnimator
       value: 
       objectReference: {fileID: 971484067}
+    - target: {fileID: 6224979190535567503, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6224979190535567507, guid: 586bc77cf31ccbb4caa79e1dc5c19e2d, type: 3}
       propertyPath: m_Name
       value: Player
@@ -3121,6 +3117,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4548148978221079762, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
+      propertyPath: transTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548148978221079762, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: SceneIndex
       value: 5
       objectReference: {fileID: 0}
@@ -3174,7 +3174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4548148978221079765, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4548148978221079766, guid: 3979cbac35b5d6440bd6c18d8b61dac2, type: 3}
       propertyPath: m_Name
