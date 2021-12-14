@@ -600,7 +600,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 74.449005
     y: 141.21951
-    width: 77
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -644,7 +644,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 558203396}
   selectedCommands:
-  - {fileID: 558203430}
+  - {fileID: 558203429}
   variables: []
   description: 
   stepPause: 0
@@ -761,7 +761,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.80466
     y: 141.22804
-    width: 80
+    width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1690,7 +1690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: "\u3002\u3002\u3002\u4E0D\u597D\uFF0C\u8001\u5E08\u8FFD\u51FA\u6821\u95E8\u6765\u4E86\uFF01\u53D4\u53D4\u6211\u5148\u8D70\u5566\uFF01"
+  storyText: "\u2026\u2026\u4E0D\u597D\uFF0C\u8001\u5E08\u8FFD\u51FA\u6821\u95E8\u6765\u4E86\uFF01\u53D4\u53D4\u6211\u5148\u8D70\u5566\uFF01"
   description: 
   character: {fileID: 441620564}
   portrait: {fileID: 0}
